@@ -1,0 +1,11 @@
+body,header,div,
+nav,figure,img,a,
+ul,li,iframe,main,fieldset,
+article,section,p,h2,h3{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}

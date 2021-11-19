@@ -1,0 +1,103 @@
+/*CONTEÚDO PRINCIPAL*/
+main{
+    background-image: url(../img/fundo__fotos/fundo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/* Guia de ajuda */
+.section-help {
+    background-color: rgba(0, 0, 0, 0.692);
+    padding: 50px 0px;
+    margin: 25px 0px;
+}
+.section-help  .box-help{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    padding: 40px 0px;
+}
+.box-help .advice{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.advice img{
+    width: 250px;
+    height: 275px;
+    margin: 10px;
+    flex-grow: 1;
+}
+.advice-text{
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.164);
+    padding: 15px 10px;
+    border: 2px solid rgb(151, 65, 212);
+    border-radius: 10px;
+}
+.advice-text p{
+    color: rgb(151, 65, 212);
+    font-size: 20px;
+    margin: 10px 5px;
+}
+
+/* Missões */
+.section-story{
+    background-color: black;
+    padding: 25px;
+}
+h2{
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+.section-story .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.content .story{
+    border: 3px solid rgb(151, 65, 212);
+    flex-basis: 500px;
+    border-radius: 45px;
+    margin: 10px;
+}
+.content .story:hover{
+    box-shadow: 9px 8px 25px darkorchid;
+    cursor: pointer;
+}
+
+.story legend{
+    text-align: center;
+}
+.story legend img{
+    width: 55px;
+}
+.description_story{
+    color: white;
+}
+.description_story h3{
+    text-transform: uppercase;
+    padding: 0 25px;
+    margin: 25px;
+    color: rgb(151, 65, 212);
+}
+.description_story p{
+    padding: 0 25px;
+    margin: 15px;
+    font-weight: 800;
+}
+.description_story figure{
+    width: 400px;
+    margin: auto;
+}
+.description_story figure img{
+    width: 100%;
+}
+
+

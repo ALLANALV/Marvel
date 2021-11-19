@@ -1,0 +1,79 @@
+/* CORPO */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/fundo__fotos/fundo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/* CABEÇALHO */
+header{
+    width: 100%;
+}
+.header_brand-socialmedias{
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header_brand-socialmedias .box-brand{
+    width: 100px;
+}
+.box-brand img{
+    width: 100%;
+}
+.header_brand-socialmedias .list-socialmedias{
+    display: flex;
+    width: 10%;
+}
+.list-socialmedias li{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+.list-socialmedias li a{
+    width: 25px;
+}
+.list-socialmedias li a img{
+    width: 100%;
+    display: inline-block;
+}
+
+.main-menu{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+    padding: 25px;
+}
+.main-menu .box-brand{
+    width: 100px;
+}
+.list-item_main-menu{
+    display: flex;
+}
+.list-item_main-menu li{
+    margin: 0px 20px;
+}
+.list-item_main-menu li  a{
+    color: rgba(184, 184, 184, 0.877);
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+.list-item_main-menu li  a:hover{
+    color: rgb(151, 65, 212);
+    border-bottom: 2px solid rgb(151, 65, 212);
+    
+}
+.video{
+    width: 100%;
+    background-color: black;
+    height: 650px;
+}
+.video video{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
