@@ -1,0 +1,122 @@
+@media screen and (max-width: 400px){
+    .main-menu{}
+    .list-item_main-menu{
+        justify-content: center;
+    }
+    .list-item_main-menu li{
+        margin: 5px;
+    }
+    .list-item_main-menu li  a{}
+}
+
+@media screen and (min-width: 410px){
+    /* CABEÇAHO */
+    .main-menu{
+        flex-direction: column;
+    }
+    .list-item_main-menu{
+        flex-wrap: nowrap;
+        margin-top: 12px;
+    }
+    .list-item_main-menu li{
+        margin: 0;
+    }
+    .list-item_main-menu li  a{
+        font-size: 9px;
+        padding: 0 5px;
+    }
+     /* CONTEÚDO */
+     .box-help{}
+     .box-help .advice{
+        
+     }
+     .advice-text{
+        width: 200px;
+     }
+     .advice-text p{
+        font-size: 12px;
+     }
+}
+
+@media screen and (min-width: 720px){
+    /* CABEÇAHO */
+    .main-menu{
+        flex-direction: row;
+    }
+    .list-item_main-menu{
+        flex-wrap: nowrap;
+    }
+    .list-item_main-menu li  a{
+        font-size: 16px;
+    }
+    .video{
+        display: block;
+    }
+    /* CONTEÚDO */
+    h2{
+        font-size: 20px;
+    }
+    .advice img{
+        width: 150px;
+        height: 160px;
+    }
+    .advice-text{
+        width: 300px;
+    }
+    .advice-text p{
+        font-size: 16px;
+    }
+    .description_story{
+        width: 400px;
+    }
+    .description_story h3{
+        font-size: 16px;
+    }
+    .description_story p{
+        font-size: 16px;
+    }
+    .description_story figure{
+        width: 300px;
+        height: 300px
+    }
+    /* RODAPÉ */
+    .box-app{
+        flex-direction: row;
+    }
+    .list-items_footer li a{
+        font-size: 12px;
+    }
+    .box-app .app{
+        width: 120px;
+    }
+    .box-app .google{
+        width: 130px;
+        position: relative;
+        bottom: 7px;
+    }
+    .credits{
+        font-size: 12px;
+    }
+} 
+@media screen and (min-width: 1024px){
+    .section-story .content{
+        flex-wrap: wrap;
+        overflow-x: hidden;
+    }
+    .description_story{
+        width: 472px;
+    }
+    .story legend img{
+        width: 55px;
+    }
+
+    .list-items_footer li{
+        margin-bottom: 10px;
+    }
+    .list-items_footer li a{
+        font-size: 14px;
+    }
+    .credits{
+        bottom: 35px;
+    }
+}
