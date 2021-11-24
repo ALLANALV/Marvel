@@ -5,51 +5,64 @@ main{
     background-size: cover;
     color: white;
 }
-.box-characters{
-   
+.list-cards::-webkit-scrollbar{
+    width: 12px;
+    border: 1px solid transparent;
 }
+.list-cards::-webkit-scrollbar-thumb{
+    background-color: rgb(63, 63, 63);
+    border-radius: 10px;
+}
+
 .list-cards{
     display: flex;
     overflow: hidden;
     overflow-x: scroll;
     padding: 15px 25px;
+    margin: 35px 0px;
+    
 }
 h2{
     color: white;
     padding: 20px;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 .card{
     font-size: 10px;
-    border: 1px solid rgb(151, 65, 212);
-    margin-right: 15px;
-    width: 185px;
+    border: 2px solid rgb(151, 65, 212);
+    box-shadow: 5px 5px 10px rgb(86, 36, 121);
+    margin-right: 25px;
+    width: 204px;
+    background-color: rgba(0, 0, 0, 0.507);
+    cursor: pointer;
 }
 .status-characters{
     background-image: url(../fundo/fundo_personagens.jpg);
     background-size: cover;
-    border: 1px solid rgb(151, 65, 212);
+    border-bottom: 2px solid rgb(151, 65, 212);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     font-weight: bold;
-    width: 185px
+    width: 198px
 }
 .status-characters figure{
     background-color: black;
     width: 50px;
-    text-align: center;
+    margin-top: 5px;
     border-radius: 50px;
-    border: 1px solid rgb(151, 65, 212);
+    border: 2px solid rgb(151, 65, 212);
 }
 .status-characters figure img{
     width: 100%;
     border-radius: 50px;
 }
 .status-characters p{
-    
+    font-size: 12px;
+    padding: 9px;
+    line-height: 20px;
 }
 .information{
     display: flex;
@@ -57,7 +70,7 @@ h2{
 }
 .About{
     padding: 5px;
-    flex-basis: 150px;
+    flex-basis: 160px;
 }
 h3{
    font-size: 15px;
@@ -66,6 +79,8 @@ h3{
 }
 .About p{
     padding: 5px;
+    font-weight: bold;
+    text-align: center;
 }
 .profile{
     display: flex;
@@ -79,9 +94,36 @@ h3{
 }
 .profile-information ul li{
     font-size: 8px;
+    font-weight: bold;
 }
 .profile a{
     flex-grow: 1;
     text-align: center;
     color: white;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+    .card{
+        width: 304px;
+        font-size: 14px;
+    }
+    .status-characters{
+        width: 298px;
+    }
+    .profile-information{
+        width: 100%;
+    }
+    h3{
+        font-size: 16px;
+    }
+    .status-characters p{
+        font-size: 15px;
+    }
+    .About {
+        flex-basis: 215px;
+    }
+    .profile-information ul li{
+       font-size: 12px;
+    }
 }
